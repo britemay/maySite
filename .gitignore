@@ -1,0 +1,26 @@
+# Pastas específicas do sistema operacional
+.DS_Store          # macOS
+Thumbs.db          # Windows
+Ambiente de Impressão/
+Ambiente de Rede/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Pastas específicas de compilação
+dist/
+build/
+node_modules/       # Se usar Node.js
+
+# Arquivos de configuração locais
+.env
+.env.local
